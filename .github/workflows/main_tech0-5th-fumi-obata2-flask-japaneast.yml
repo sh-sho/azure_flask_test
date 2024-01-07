@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'tech0-5th-fumi-obata2-flask-japaneast'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_85F458B9A8FB4523906E89FD6E10B6EC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3FA75FF609EF49FFA540215AEB1EB81A }}
