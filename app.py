@@ -6,10 +6,10 @@ from flask import Flask
 
 
 app = Flask(__name__)
-app.config["API_TITLE"] = "My API"
-app.config["API_VERSION"] = "v1"
-app.config["OPENAPI_VERSION"] = "3.0.2"
-app.json.ensure_ascii = False
+# app.config["API_TITLE"] = "My API"
+# app.config["API_VERSION"] = "v1"
+# app.config["OPENAPI_VERSION"] = "3.0.2"
+# app.json.ensure_ascii = False
 # api = Api(app)
 
 @app.route("/")
